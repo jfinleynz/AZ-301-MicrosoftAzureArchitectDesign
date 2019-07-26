@@ -326,9 +326,9 @@
 
 1. In the **DetermineLanguage** step, perform the following tasks:
 
-    - Click the **Show advanced options** link to display all options.
-
     - In the **Request Body** text box, type **@triggerBody()**.
+    
+    - Add a new parameter for **Method**.
 
     - In the **Method** drop-down list, select the **POST** option.
 
@@ -346,9 +346,9 @@
 
 1. In the **DetermineKeyPhrases** step, perform the following tasks:
 
-    - Click the **Show advanced options** link to display all options.
-
     - In the **Request Body** text box, enter the value **@body('DetermineLanguage')**.
+    
+     - Add a new parameter for **Method**.
 
     - In the **Method** drop-down list, select the **POST** option.
 
